@@ -7,11 +7,9 @@
     export let audio;
     export let volume = 1;
     export let volumeDown = () => {
-        console.log('down');
         paused = true
     }
     export let volumeUp = () => {
-        console.log('up');
         volume = 1;
     }
     let paused = true;

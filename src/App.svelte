@@ -39,6 +39,7 @@
         <div class="row">
             <div class="col-12 title">
                 <h1>Música Luch</h1>
+                <h3>por Ramiro y Olivia</h3>
             </div>
             <Button bind:this={bg} audio={audios[0]}/>
             {#each audios.slice(1) as audio}
@@ -52,10 +53,6 @@
 </main>
 
 <style>
-    .title {
-        margin-bottom: 50px;
-        font-weight: bold;
-    }
     main {
         text-align: center;
         padding: 1em;
@@ -68,6 +65,13 @@
         text-transform: uppercase;
         font-size: 4em;
         font-weight: 100;
+    }
+    h3 {
+        color: #003cff;
+        text-transform: uppercase;
+        font-size: 2em;
+        font-weight: 100;
+        margin-bottom: 50px;
     }
     .reload {
         margin-top:150px;
